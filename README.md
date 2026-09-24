@@ -4,6 +4,14 @@ Homebrew casks and formulae for apps and tools by [Rxmeez](https://github.com/Rx
 
 ## Install
 
+Homebrew only loads casks and formulae from taps you trust, so trust this one first:
+
+```bash
+brew trust --tap rxmeez/tap
+```
+
+Then:
+
 ```bash
 brew install --cask rxmeez/tap/<cask>     # Mac apps
 brew install rxmeez/tap/<formula>         # command-line tools
