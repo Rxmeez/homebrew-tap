@@ -28,7 +28,7 @@ cask "<cask>"
 
 | Name | Type | What it is | Status |
 | --- | --- | --- | --- |
-| [superkeys](https://superkeys.space) | Cask | Two private keys for your Mac: Caps Lock and right ⌘ become shortcuts for apps, windows, and desktops. | Coming soon |
+| [superkeys](https://superkeys.space) | Cask | Two private keys for your Mac: Caps Lock and right ⌘ become shortcuts for apps, windows, and desktops. | 0.1.0, early build (not yet notarised) |
 
 ## Layout
 
@@ -37,6 +37,10 @@ cask "<cask>"
 - `.github/workflows/` — Homebrew's standard checks (`tests.yml`) on every pull request, bottle publishing (`publish.yml`), and a daily version check (`autobump.yml`).
 
 Release files are not stored in this repository; each cask downloads from its project's release host.
+
+### Early, un-notarised builds
+
+Apps marked "not yet notarised" aren't signed with an Apple Developer ID yet. macOS blocks them the first time you open them; allow it once in System Settings → Privacy & Security → Open Anyway. `brew info --cask <name>` shows the exact steps.
 
 ## Documentation
 
