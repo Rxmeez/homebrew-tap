@@ -7,9 +7,8 @@ cask "superkeys" do
   desc "Turns Caps Lock and right Command into keys for apps, windows and desktops"
   homepage "https://superkeys.space/"
 
-  depends_on macos: :sonoma
-
   auto_updates true
+  depends_on macos: :sonoma
 
   app "Superkeys.app"
 
