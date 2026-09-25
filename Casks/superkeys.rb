@@ -16,7 +16,10 @@ cask "superkeys" do
   uninstall quit:       "space.superkeys",
             login_item: "Superkeys"
 
-  zap trash: "~/Library/Preferences/space.superkeys.plist"
+  zap trash: [
+    "~/.config/superkeys",
+    "~/Library/Preferences/space.superkeys.plist",
+  ]
 
   caveats <<~EOS
     Superkeys is not notarised by Apple, so macOS blocks it the first time
