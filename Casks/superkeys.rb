@@ -1,6 +1,6 @@
 cask "superkeys" do
-  version "0.1.0"
-  sha256 "212fdb1f70805b0c0c92f1111ff731223dd9afab74b06cefc026085429392de8"
+  version "0.1.1"
+  sha256 "976bf9a29b404881dc6c385394b99fa659395d2cf4f635edc1bb73fd619e5543"
 
   url "https://superkeys.space/download/Superkeys-#{version}.zip"
   name "Superkeys"
@@ -8,6 +8,8 @@ cask "superkeys" do
   homepage "https://superkeys.space/"
 
   depends_on macos: :sonoma
+
+  auto_updates true
 
   app "Superkeys.app"
 
