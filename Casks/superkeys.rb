@@ -19,9 +19,11 @@ cask "superkeys" do
   zap trash: "~/Library/Preferences/space.superkeys.plist"
 
   caveats <<~EOS
-    Superkeys #{version} is an early build that is not yet notarised by Apple,
-    so macOS blocks it the first time you open it. To allow it once:
-      System Settings → Privacy & Security → Superkeys → Open Anyway
-    Then grant Accessibility access when Superkeys asks.
+    Superkeys is not notarised by Apple, so macOS blocks it the first time
+    you open it. Click Done (not Move to Bin), then allow it once:
+      System Settings → Privacy & Security → Open Anyway
+    Then grant Accessibility when Superkeys asks. Step by step:
+      https://superkeys.space/install
+    Updates install themselves after that, with no more prompts.
   EOS
 end
