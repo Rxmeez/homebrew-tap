@@ -1,6 +1,6 @@
 cask "superkeys" do
-  version "0.2.0"
-  sha256 "5a635b95da1a8cd5aee01d6d0dffd3146caac2b8d4375f5135c768ae5638f542"
+  version "0.2.1"
+  sha256 "652febf9e0e0f36c31937a8c12c5a714ee9fc824acdba1d5126de3e3d6aee1dc"
 
   url "https://superkeys.space/download/Superkeys-#{version}.zip"
   name "Superkeys"
