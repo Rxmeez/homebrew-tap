@@ -28,7 +28,7 @@ cask "<cask>"
 
 | Name | Type | What it is | Status |
 | --- | --- | --- | --- |
-| [superkeys](https://superkeys.space) | Cask | Caps Lock, finally useful: Caps Lock and right ⌘ become shortcuts for apps, windows, and desktops. | Updates itself (not notarised) |
+| [superkeys](https://superkeys.space) | Cask | Your whole Mac, one key away: Caps Lock and right ⌘ become shortcuts for apps, windows, desktops, and keystrokes. | Updates itself (not notarised) |
 
 ## Layout
 
