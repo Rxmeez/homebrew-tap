@@ -28,7 +28,7 @@ cask "<cask>"
 
 | Name | Type | What it is | Status |
 | --- | --- | --- | --- |
-| [superkeys](https://superkeys.space) | Cask | Two private keys for your Mac: Caps Lock and right ⌘ become shortcuts for apps, windows, and desktops. | 0.1.0, early build (not yet notarised) |
+| [superkeys](https://superkeys.space) | Cask | Caps Lock, finally useful: Caps Lock and right ⌘ become shortcuts for apps, windows, and desktops. | Updates itself (not notarised) |
 
 ## Layout
 
