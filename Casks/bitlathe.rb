@@ -1,8 +1,8 @@
 # release: Homebrew cask for the self-signed build. scripts/ship.sh fills in the version, sha256 and Rxmeez/bitlathe, and
 # copies the result to Rxmeez/homebrew-tap (Casks/bitlathe.rb). Install with: brew install --cask rxmeez/tap/bitlathe
 cask "bitlathe" do
-  version "0.1.0"
-  sha256 "fa9a06a92db61183ea11d9fcea70b545eb1ca429c0ef980c919322bf30ac68d4"
+  version "0.1.1"
+  sha256 "6a606f55ffd19b7987128a2fee9d7cec85c4768ff8303983b58a88520f29782f"
 
   url "https://github.com/Rxmeez/bitlathe/releases/download/v#{version}/Bitlathe-#{version}.zip"
   name "Bitlathe"
